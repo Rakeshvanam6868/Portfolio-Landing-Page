@@ -30,7 +30,18 @@ const Header = ({ className = "" }) => {
             </li>
           ))}
         </ul>
-        <Button name={"Download CV"}></Button>
+        <Button 
+          title="Download CV" 
+          width="188px" 
+          height="52px" 
+          top="7px" 
+          left="1232px" 
+          padding="15px" 
+          gap="10px" 
+          borderRadius="5px" 
+          background="#FD6F00" 
+          textColor="#ffffff"
+        />
       </div>
     </div>
   );
