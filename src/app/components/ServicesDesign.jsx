@@ -13,10 +13,10 @@ const ServicesDesign = ({ imageSrc, title, description }) => {
           height={"70px"}
           className={`ml-[18px]`}
         />
-        <p className={`w-[300px] h-[48px] ml-[18px] mt-[15px] ${poppins.className} font-[600] text-[32px] tracking-[3%]`}>
+        <p className={`w-[300px] h-[48px] ml-[18px] mt-[15px] ${poppins.className} font-[600] text-[32px] tracking-[3%] text-black`}>
           {title}
         </p>
-        <p className={`w-[290px] h-[120px] mt-[10px] ml-[22px] ${poppins.className} font-[400] text-[19px] tracking-[3%]`}>
+        <p className={`w-[290px] h-[120px] mt-[10px] ml-[22px] ${poppins.className} font-[400] text-[19px] tracking-[3%] text-black`}>
           {description}
         </p>
       </div>

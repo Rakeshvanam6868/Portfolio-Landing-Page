@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Button = ({ title, width, height, top, left, padding, gap, borderRadius, border, opacity, background, borderColor,textColor }) => {
+const Button = ({ title, width, height, top, left, padding, gap, borderRadius, border, opacity, background, borderColor,textColor,textSize,weight }) => {
   const buttonStyles = {
     width: width,
     height: height,
@@ -14,12 +14,14 @@ const Button = ({ title, width, height, top, left, padding, gap, borderRadius, b
     backgroundColor: background,
     borderColor: borderColor,
     color:textColor,
+    fontWeight:weight,
+    fontSize:textSize,
   };
 
   return (
     <div
       style={buttonStyles}
-      className="absolute text-center text-[21px] cursor-pointer"
+      className="absolute text-center  text-[21px] cursor-pointer"
     >
       {title}
     </div>

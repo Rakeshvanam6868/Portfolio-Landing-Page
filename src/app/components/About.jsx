@@ -1,3 +1,4 @@
+"use client";
 import Image from 'next/image'
 import React from 'react'
 import avatar from '@/app/public/Aboutavatart.png'
@@ -14,7 +15,7 @@ const About = () => {
             />
         </div>
         <div className="flex items-start flex-col">
-            <p className={`absolute w-[330px] h-[98px] mt-[55px] ml-[854px] ${poppins.className} font-[600] text-[65px] text-black`}>About Me</p>
+            <p className={`absolute w-[330px] h-[98px] mt-[55px] ml-[854px] ${poppins.className} font-[600] text-[65px] `}>About Me</p>
             <p className={`absolute w-[756px] h-[101px] mt-[168px] ml-[854px] ${poppins.className} font-[400] text-[21px]`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quae cupiditate harum quia odio perferendis earum excepturi! Omnis id deserunt iure deleniti, ipsum quas </p>
             <div className={`w-[753px] h-[349px] mt-[284px] ml-[854px] rounded-[5px]`}>
             <DesignHeading

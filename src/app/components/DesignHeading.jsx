@@ -5,7 +5,7 @@ const DesignHeading = ({ title, width, top, left, isBorder,ellipseStyles }) => {
   return (
     <>
       <p
-        className={`${poppins.className} w-[753px] h-[76px] absolute font-[600] text-[24px] text-black`}
+        className={`${poppins.className} w-[753px] h-[76px] absolute font-[600] text-[24px] `}
         style={{
           width: `${width}px`,
           height: '36px',
