@@ -5,7 +5,7 @@ import Avatar1 from "@/app/public/AvatarTest.png";
 import Avatar2 from "@/app/public/AvatarTest2.png";
 const Testimonials = () => {
   return (
-    <div className={`absolute w-[3385px] h-[733px] mt-[3700px] ml-[-757px]`}>
+    <div className={`absolute w-[3385px] h-[733px] mt-[3700px] ml-[-557px]`}>
       <div className={`absolute w-[446px] h-[98px] ml-[1490px]`}>
         <p className={`${poppins.className} font-[600] text-[65px] tracking-[3%] text-center `}>Testimonials</p>
       </div>

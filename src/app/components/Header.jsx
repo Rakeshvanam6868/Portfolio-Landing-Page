@@ -3,7 +3,7 @@ import Logo from "./Logo";
 import NavLinks from "./NavLinks";
 const Header = ({ onToggleTheme }) => {
   return (
-    <div className="absolute w-[1420px] h-[67px] mt-[61px] ml-[250px] flex items-start justify-start ">
+    <div className="absolute w-[1420px] h-[67px] mt-[61px] ml-[50px] flex items-start justify-start ">
       <Logo/>
       <div className="ml-[40px] h-[52px] w-[900px] mt-[7px] flex items-center justify-center">
         <NavLinks/>
