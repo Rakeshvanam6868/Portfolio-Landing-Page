@@ -1,11 +1,12 @@
 import React from 'react';
 import { poppins } from '../layout';
 
-const DesignHeading = ({ title, width, top, left, isBorder,ellipseStyles }) => {
+const DesignHeading = ({ title, width, top, left, isBorder,ellipseStyles,gray }) => {
+  const dynamicWidth = `calc(753px - (${left}px - ${ellipseStyles.left}px))`;
   return (
     <>
       <p
-        className={`${poppins.className} w-[753px] h-[76px] absolute font-[600] text-[24px] `}
+        className={`${poppins.className} w-[753px] h-[76px] absolute font-[600] text-[24px]  `}
         style={{
           width: `${width}px`,
           height: '36px',
@@ -19,7 +20,7 @@ const DesignHeading = ({ title, width, top, left, isBorder,ellipseStyles }) => {
         {title}
       </p>
       <div
-        className="absolute"
+        className="absolute "
         style={{
           width: '753px',
           height: '12px',
@@ -33,17 +34,16 @@ const DesignHeading = ({ title, width, top, left, isBorder,ellipseStyles }) => {
       <div
           className="absolute z-10"
           style={{
-            width: `calc(${width}px - ${ellipseStyles.left}px)`, // Subtract ellipse width
+            width:gray ,//`calc(753px - (${ellipseStyles.left}px - ${left}px))` Subtract ellipse width`calc(${753}px - (${ellipseStyles.left}px) - ${left}px)`
             height: '12px',
-            top: '0', // Align with the bar
-            left: `${ellipseStyles.left}px`, // Position background color to the right of the ellipse
+            top: `${top + 44}px`, 
+            left: ellipseStyles.left, // Position background color to the right of the ellipse
             backgroundColor: '#EDECEC',
             borderRadius: '6px',
-            opacity: '0.7', // Optional: Adjust opacity if needed
           }}
         ></div>
       <div
-          className="absolute"
+          className="absolute z-20"
           style={{
             width: '32px',
             height: '32px',

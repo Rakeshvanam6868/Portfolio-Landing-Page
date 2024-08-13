@@ -1,10 +1,8 @@
 import React from 'react'
-import { poppins } from '../layout';
+import { poppins } from '../src/app/layout';
 import ServicesDesign from './ServicesDesign';
-import { servicesData } from "../data/index";
-
+import { servicesData } from '../src/app/data';
 const Services = () => {
-
 
   return (
     <div className={`absolute w-[1413] h-[584px] mt-[1818px] ml-[50px]`}>
@@ -14,7 +12,7 @@ const Services = () => {
           <div className={`absolute w-[932px] h-[101px] mt-[113px] ml-[239px]`}>
             <p className={`${poppins.className} font-[400] text-[21px] tracking-[3%] text-center`}>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium</p>
           </div>
-        <div className={`absolute flex space-x-[22px] ml-[20px] mt-[238px]`}>
+        <div className={`absolute flex space-x-[22px] mt-[238px]`}>
         {servicesData.map((service, index) => (
           <ServicesDesign
             key={index}
