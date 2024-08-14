@@ -3,6 +3,8 @@ import { poppins } from '../layout';
 import TestimonialsComponents from './TestimonialsComponents';
 import Avatar1 from "@/app/public/AvatarTest.png";
 import Avatar2 from "@/app/public/AvatarTest2.png";
+import Slider from './Slider';
+
 const Testimonials = () => {
   return (
     <div className={`absolute w-[3385px] h-[733px] mt-[3700px] ml-[-957px]`}>
@@ -14,7 +16,7 @@ const Testimonials = () => {
           Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium
         </p>
       </div>
-      <div className={`absolute flex `} >
+      <div className={`absolute flex ml-[10px] `} >
         {/* 1st layout */}
         <TestimonialsComponents
           imageSrc={Avatar1}
@@ -57,6 +59,12 @@ const Testimonials = () => {
           left="2298px"
           gap="0px"
         />
+      </div>
+      <div className={`absolute w-[255px] h-[16px] mt-[717px] ml-[1589px] flex gap-2`}>
+         <Slider bg={"#D9D9D9"}/>
+         <Slider bg={"#FD6F00"}/>
+         <Slider bg={"#D9D9D9"}/>
+         <Slider bg={"#D9D9D9"}/>
       </div>
     </div>
   );

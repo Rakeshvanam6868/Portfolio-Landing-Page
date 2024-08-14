@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import { iconData } from "../data/index";
+import { iconData } from "../src/app/data/index";
 
 const Icons = () => {
   return (

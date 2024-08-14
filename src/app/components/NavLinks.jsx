@@ -1,15 +1,6 @@
 import React from 'react'
 import Navbar from "./Navbar";
-
-
-const navItems = [
-  { name: "Home", link: "/" },
-  { name: "About Us", link: "/about" },
-  { name: "Services", link: "/services" },
-  { name: "Projects", link: "/projects" },
-  { name: "Testimonials", link: "/testimonials" },
-  { name: "Contact", link: "/contact" },
-];
+import { navItems } from '../data/index';
 
 const NavLinks = () => {
   return (

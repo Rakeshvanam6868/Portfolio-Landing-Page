@@ -10,14 +10,14 @@ const Footer = () => {
        <div className={`absolute w-[279px] h-[67px] mt-[109px] ml-[620px]`}>
            <Logo/>
        </div>
-       <div className={`absolute w-[807px] h-[52px] mt-[241px] ml-[236px]`}>
+       <div className={`absolute w-[807px] h-[52px] mt-[241px] ml-[276px]`}>
            <NavLinks/>
        </div>
-       <div className={`absolute mt-[373.52px] ml-[657px]`}>
+       <div className={`absolute mt-[373.52px] ml-[680px]`}>
            <Icons/>
        </div>
        <div className={`absolute w-[1921px] h-[84px]  mt-[468px] ml-[4px] bg-[#545454]`}>
-          <div className={`absolute w-[440px] h-[32px]  mt-[25px] ml-[520px] `}>
+          <div className={`absolute w-[440px] h-[32px]  mt-[25px] ml-[530px] `}>
           <p className={`${poppins.className} font-[400] text-[21px] tracking-[3%] text-center text-black`}>© 2023 <span className={`${poppins.className} font-[700] text-[21px] tracking-[3%]  text-[#FD6F00]`}>Mumair</span> All Rights Reserved , Inc. </p>
           </div>
        </div>

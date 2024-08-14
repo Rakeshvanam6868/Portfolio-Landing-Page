@@ -25,6 +25,7 @@ const About = () => {
           left={704}
           isBorder={true}
           ellipseStyles={{ top: '317px', left: '1183px' }}
+          gray={275}
             />
         <DesignHeading
           title="Website Design"
@@ -33,6 +34,7 @@ const About = () => {
           left={704}
           isBorder={true}
           ellipseStyles={{ top: '408px', left: '1151px' }}
+          gray={307}
         />
         <DesignHeading
           title="App Design"
@@ -41,6 +43,7 @@ const About = () => {
           left={704}
           isBorder={false}
           ellipseStyles={{ top: '500px', left: '1215px' }}
+          gray={242}
         />
         <DesignHeading
           title="Graphic Design"
@@ -49,6 +52,7 @@ const About = () => {
           left={704}
           isBorder={true}
           ellipseStyles={{ top: '593px', left: '1183px' }}
+          gray={275}
         />
             </div>
         </div>
