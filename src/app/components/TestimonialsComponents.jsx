@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import { poppins } from '../layout';
 
-const TestimonialsComponents = ({ width, height, top, left, gap, borderRadius, opacity, imageSrc, description, name, title }) => {
+const TestimonialsComponents = ({ width, height, top, left, gap, borderRadius, opacity, imageSrc, description, name, title, overflow }) => {
   const containerStyles = {
     width,
     height,

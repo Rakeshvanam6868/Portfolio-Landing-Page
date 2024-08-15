@@ -7,7 +7,7 @@ const Services = () => {
 
 
   return (
-    <div className={`absolute w-[1413] h-[584px] mt-[1818px] ml-[50px]`}>
+    <div className={`absolute w-[1413] h-[584px] mt-[1818px] ml-[250px]`}>
           <div className={`absolute w-[292px] h-[98px] ml-[559px]`}>
             <p className={`absolute ${poppins.className} font-[600] text-[65px] text-center tracking-[3%]`}>Services</p>
           </div>

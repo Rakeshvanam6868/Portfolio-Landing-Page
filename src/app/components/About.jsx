@@ -6,7 +6,7 @@ import { poppins } from '../layout';
 import DesignHeading from './DesignHeading';
 const About = () => {
   return (
-    <div className={`absolute w-[1470px] h-[675px] mt-[1004px] ml-[0px]`}>
+    <div className={`absolute w-[1470px] h-[675px] mt-[1004px] ml-[220px]`}>
       <div className={`absolute bg-orange-600 opacity-70 w-[374px] h-[83px] mt-[112px] ml-[153px] z-10`}></div>
         <div className={`absolute w-[681px] h-[675px] ml-[0px] `}>
             <Image

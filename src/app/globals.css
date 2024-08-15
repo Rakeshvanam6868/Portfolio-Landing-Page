@@ -5,8 +5,7 @@
 @tailwind utilities;
 body {
   @apply leading-[normal] m-0;
-  max-width: 1920px; /* Prevents content from exceeding 1920px */
-  overflow-x: hidden; /* Hides any horizontal overflow */
+  max-width: 1930px; /* Prevents content from exceeding 1920px */ /* Hides any horizontal overflow */
   margin: 0 auto;
 }
 *,

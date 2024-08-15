@@ -10,7 +10,7 @@ import EcomFront from "@/app/public/Front3.png"
 import EcomBack from "@/app/public/Back3.png"
 const Projects = () => {
   return (
-    <div className={`absolute w-[1423px] h-[1020px] mt-[2541px] ml-[50px]`}>
+    <div className={`absolute w-[1423px] h-[1020px] mt-[2541px] ml-[250px]`}>
         <div className={`absolute w-[399px] h-[98px] ml-[510px]`}>
             <p className={`${poppins.className} font-[600] text-[65px] tracking-[3%] `}>My Projects</p>
         </div>

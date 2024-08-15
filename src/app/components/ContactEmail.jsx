@@ -4,7 +4,7 @@ import Button from './Button'
 
 const ContactEmail = () => {
   return (
-   <div className={`absolute w-[932px] h-[337px] mt-[4572px] ml-[275px]`}>
+   <div className={`absolute w-[932px] h-[337px] mt-[4572px] ml-[535px]`}>
         <div className={`absolute w-[724px] h-[98px] ml-[104px]`}>
             <p className={`${poppins.className} font-[600] text-[65px] tracking-[3%] text-center `}>Lets Design Together</p>
         </div>

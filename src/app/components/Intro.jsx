@@ -8,7 +8,7 @@ import Icons from "./Icons";
 
 const Intro = () => {
   return (
-      <div className={`absolute w-[1400px] h-[617px] mt-[248px] ml-[50px] flex  `}>
+      <div className={`absolute w-[1400px] h-[617px] mt-[248px] ml-[250px] flex  `}>
         <div className="flex items-start justify-start flex-col">
             <p className={`absolute mt-[97px] ml-[7px] font-[600] text-[21px] `}>Hi I am</p>
             <p className={`absolute mt-[139px] ml-[4px] w-[324px] h-[48px] ${poppins.className} font-[600] text-[32px] text-[#FD6F00]`}>Muhammad Umair</p>

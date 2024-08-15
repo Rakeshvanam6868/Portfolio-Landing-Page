@@ -17,7 +17,7 @@ export default function Home() {
     setIsDarkMode(!isDarkMode);
   };
   return (
-    <div className={`w-[1920px] h-[5600px] ${
+    <div className={`w-[1920px] h-[5600px]  ${
         isDarkMode ? "bg-[#1E1E1E] text-white" : "bg-[#FFFFFF] text-black"
       } `}>
       <Header onToggleTheme={handleToggleTheme}/>
